@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WindowsFormsAppRefprop</RootNamespace>
     <AssemblyName>WindowsFormsAppRefprop</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -33,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\..\..\..\..\..\..\src_mq\MST\Client\Output\Release\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
     <Reference Include="NIST.Refprop.Interface">
       <HintPath>..\bin\Debug\NIST.Refprop.Interface.dll</HintPath>
     </Reference>

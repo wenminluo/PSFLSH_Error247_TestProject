@@ -7,7 +7,7 @@ namespace WindowsFormsApplication1
 
     public partial class Form1 : Form
     {
-        private void NISTRefpropTest_1(NISTProperty NISTInstance)
+       static public void NISTRefpropTest_1(NISTProperty NISTInstance)
         {
 
             NISTInstance.SetRefrigerant(6);
